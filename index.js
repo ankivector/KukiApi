@@ -16,9 +16,9 @@ app.use(express.urlencoded({ extended: false }))
 
 // https://expressjs.com/en/starter/basic-routing.html
 
-app.get('/', (req, res) => {
-  res.sendFile('public/index.html', { root: __dirname });
-});
+//app.get('/', (req, res) => {
+//  res.sendFile('public/index.html', { root: __dirname });
+//});
 
 
 app.get("/", (req, res) => {
